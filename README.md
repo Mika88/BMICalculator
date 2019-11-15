@@ -1,0 +1,2 @@
+# BMICalculator
+Java CLI project
