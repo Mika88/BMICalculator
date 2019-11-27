@@ -7,6 +7,6 @@ public class Main {
       float height =  Console.getInput("Enter Height in Meters: ");
 
       var bmi = new BMICalculator(height, weight);
-      bmi.calculateBMI();
+      Console.printBMI(bmi);
     }
 }

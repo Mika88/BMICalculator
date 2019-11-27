@@ -17,5 +17,9 @@ public class Console {
         return value;
       }
 
+     public static void printBMI(BMICalculator calculator) {
+         System.out.println("Your BMI is: ");
+         System.out.println(calculator.calculateBMI());
+      }
     }
 

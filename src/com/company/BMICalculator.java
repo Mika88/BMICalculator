@@ -1,5 +1,7 @@
 package com.company;
 
+import java.text.DecimalFormat;
+
 public class BMICalculator {
   private float height;
   private float weight;
@@ -9,7 +11,7 @@ public class BMICalculator {
     this.weight = weight;
   }
 
-  public float calculateBMI() {
-    return (float) (weight/(Math.pow(height, 2)));
+  public String calculateBMI() {
+    return  (new DecimalFormat("##.##").format(weight/(Math.pow(height, 2))));
   }
 }
