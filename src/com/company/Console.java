@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Console {
     private static Scanner scanner = new Scanner(System.in);
 
-    public static double getInput(String prompt) {
+    public static float getInput(String prompt) {
         float value;
         while (true) {
             System.out.print(prompt);
@@ -16,5 +16,6 @@ public class Console {
         }
         return value;
       }
+
     }
 
