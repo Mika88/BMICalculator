@@ -18,6 +18,7 @@ public class Console {
       }
 
      public static void printBMI(BMICalculator calculator) {
+         System.out.println("---------------");
          System.out.println("Your BMI is: ");
          System.out.println(calculator.calculateBMI());
       }
@@ -25,6 +26,7 @@ public class Console {
       public static void printCategory(BMICalculator calculator) {
         var bmi = Float.parseFloat(calculator.calculateBMI());
 
+        System.out.println("---------------");
         if (bmi < 18.5)
             System.out.println("Your BMI category is: Underweight");
         else if (bmi < 25 && bmi > 18.5)
