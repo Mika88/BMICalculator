@@ -8,5 +8,6 @@ public class Main {
 
       var bmi = new BMICalculator(height, weight);
       Console.printBMI(bmi);
+      Console.printCategory(bmi);
     }
 }
