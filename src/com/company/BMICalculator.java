@@ -12,6 +12,6 @@ public class BMICalculator {
   }
 
   public String calculateBMI() {
-    return  (new DecimalFormat("##.##").format(weight/(Math.pow(height, 2))));
+    return new DecimalFormat("##.#").format(weight/(Math.pow(height, 2)));
   }
 }
