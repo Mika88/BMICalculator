@@ -6,10 +6,10 @@ public class Console {
     private static Scanner scanner = new Scanner(System.in);
 
     public static double getInput(String prompt) {
-        double value;
+        float value;
         while (true) {
             System.out.print(prompt);
-            value = scanner.nextDouble();
+            value = scanner.nextFloat();
             if (value > 0)
                 break;
             System.out.println("Enter a value bigger than 0");

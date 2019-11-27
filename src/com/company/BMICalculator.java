@@ -9,7 +9,7 @@ public class BMICalculator {
     this.weight = weight;
   }
 
-  public double calculateBMI() {
-    return weight/(Math.pow(height, 2));
+  public float calculateBMI() {
+    return (float) (weight/(Math.pow(height, 2)));
   }
 }
