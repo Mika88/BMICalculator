@@ -36,5 +36,11 @@ public class Console {
         else
             System.out.println("Your BMI category is: Obesity");
       }
+
+      public static String getName(){
+          System.out.println("Welcome to the BMI calculator!");
+          System.out.println("Please Enter Your Name: ");
+          return scanner.next();
+      }
     }
 
