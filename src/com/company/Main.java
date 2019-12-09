@@ -3,7 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Console.getName();
+        var name = Console.getName();
+       Console.welcome(name);
       float weight =  Console.getInput("Enter Your Weight in Kg: ");
       float height =  Console.getInput("Enter Your Height in Meters: ");
 

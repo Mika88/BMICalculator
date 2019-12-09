@@ -38,9 +38,12 @@ public class Console {
       }
 
       public static String getName(){
-          System.out.print("Welcome to the BMI calculator!\n");
           System.out.print("Please Enter Your Name: ");
           return scanner.next();
+      }
+
+      public static void welcome(String name){
+          System.out.print("Hello " + name + ", Welcome to the BMI calculator!\n");
       }
     }
 
