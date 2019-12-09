@@ -38,8 +38,8 @@ public class Console {
       }
 
       public static String getName(){
-          System.out.println("Welcome to the BMI calculator!");
-          System.out.println("Please Enter Your Name: ");
+          System.out.print("Welcome to the BMI calculator!\n");
+          System.out.print("Please Enter Your Name: ");
           return scanner.next();
       }
     }
